@@ -10,7 +10,7 @@ ctx.fillRect(100, 50, 100, 50);
 
 ctx.save();
 
-ctx.setTransform(2, 0.5, 0.5, 2, 50, 50); // x缩放（1为原状）、x倾斜（0为原装）、y倾斜、y缩放、x平移、y平移 影响后续绘制，可使用svae+stroke清楚
+ctx.setTransform(2, 0.5, 0.5, 2, 50, 50); // x缩放（1为原状）、x倾斜（0为原装）、y倾斜、y缩放、x平移、y平移 影响后续绘制，可使用svae+stroke清除
 ctx.fillStyle = 'blue';
 ctx.fillRect(100, 50, 100, 50);
 
